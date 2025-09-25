@@ -44,5 +44,5 @@ class Aurora:
 
     async def start(self):
         await self.setup_cogs()
-        await self.client.start("MTQyMDg3MDM0NTc1NzU2MDk4NQ.GKWiRY.MyqdMcN05MXBUl8JdkalPtVvj71bHEtEKL4gQ4")
+        await self.client.start(os.getenv("TOKEN_BOT"))
 
